@@ -192,32 +192,36 @@ body {
     padding: 0px;
     display: flex;
     align-items: center;
+    margin-bottom: 200px;
+
 
 
 }
-.welcome-items{
+
+.welcome-items {
     margin-left: 100px;
 }
 
-.welcome-title-one{
+.welcome-title-one {
     color: rgb(255, 255, 255);
     font-size: 64px;
     font-weight: 900;
     text-align: left;
-   
+
     margin-top: 70px;
     padding-top: 50px;
     margin-bottom: 0px;
-    
+
 }
+
 .welcome-title-two {
     color: rgb(255, 255, 255);
     font-size: 64px;
     font-weight: 900;
     text-align: left;
-        margin-top: 0px;
+    margin-top: 0px;
     padding-top: 0px;
-    
+
 }
 
 .welcome-description {
@@ -242,4 +246,123 @@ body {
     margin-top: 20px;
     padding-top: 20px;
 
+}
+
+.welcome-btn {
+    color: rgb(255, 255, 255);
+    background-color: gray;
+
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.welcome-btn>a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+/* footer styles */
+footer {
+
+    position: absolute;
+    width: 1750px;
+    height: 500px;
+    left: 0;
+    right: 0px;
+    top: 6726.07px;
+    bottom: -6726.07px;
+    background: rgb(7, 2, 17);
+}
+
+.container-one-items {
+    /* Group 43 */
+    display: flex;
+    width: 1185px;
+    height: 80px;
+    left: 140px;
+    right: 275px;
+    top: 6846.07px;
+    bottom: -6317.07px;
+}
+
+.container-one-items {
+    display: block;
+}
+
+.description-1 {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: -5px;
+    padding-bottom: 0px;
+}
+
+.description-2 {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: -5px;
+    margin-bottom: 3px;
+    padding-top: 0px;
+
+}
+
+.description-3 {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: -5px;
+    padding-bottom: 0px;
+}
+
+.description-4 {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: -5px;
+    margin-bottom: 3px;
+    padding-top: 0px;
+
+}
+
+.footer-container-one {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 400px;
+    margin-top: 80px;
+}
+
+hr {
+
+    width: 1320px;
+    height: 0;
+    left: 140px;
+    top: 6975.57px;
+    border: 1px solid white;
+}
+
+.img-items {
+    text-align: center;
+    margin-top: 20px;
+    gap: 40px;
+    margin-bottom: 20px;
+    
+}
+
+.social-icon {
+
+    width: 38px;
+    height: 50px;
+    left: 32.81%;
+    right: 1.17%;
+    top: 16.86%;
+    bottom: 1.83%;
+    
 }
