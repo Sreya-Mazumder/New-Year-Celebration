@@ -1,0 +1,245 @@
+/* universal styles */
+
+body {
+    .merriweather-light {
+        font-family: "Merriweather", serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    .merriweather-light-italic {
+        font-family: "Merriweather", serif;
+        font-weight: 300;
+        font-style: italic;
+    }
+
+    .merriweather-regular {
+        font-family: "Merriweather", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .merriweather-regular-italic {
+        font-family: "Merriweather", serif;
+        font-weight: 400;
+        font-style: italic;
+    }
+
+    .merriweather-bold {
+        font-family: "Merriweather", serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    .merriweather-bold-italic {
+        font-family: "Merriweather", serif;
+        font-weight: 700;
+        font-style: italic;
+    }
+
+    .merriweather-black {
+        font-family: "Merriweather", serif;
+        font-weight: 900;
+        font-style: normal;
+    }
+
+    .merriweather-black-italic {
+        font-family: "Merriweather", serif;
+        font-weight: 900;
+        font-style: italic;
+    }
+
+}
+
+/* banner styles */
+.banner-container {
+
+    /* background: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%); */
+    background-position: top;
+    position: absolute;
+    max-width: 1320px;
+    max-height: 600px;
+    left: 100px;
+    right: 100px;
+    top: 50px;
+    background-image: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url('../images/Banner\ Image.png');
+    bottom: -50px;
+    border-radius: 16px;
+    margin-left: 100px;
+    margin-right: 0px;
+    padding: 0px;
+    /* margin: 20px 60px; */
+
+
+}
+
+.banner-greetings {
+    text-align: center;
+}
+
+.banner-greeting-one {
+
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 90px;
+    margin-bottom: 5px;
+}
+
+.banner-greeting-two {
+    color: white;
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 0px;
+    text-align: center;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.banner-greeting-three {
+    color: rgb(255, 255, 255);
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 0px;
+    text-align: center;
+
+}
+
+.banner-img {
+
+    max-width: 1300px;
+    max-height: 500px;
+
+}
+
+
+/* 65% Off section styles */
+
+.Off-container {
+    /* Group 50 */
+    position: absolute;
+    width: 802.9px;
+    height: 806px;
+    left: 399px;
+    right: 398.1px;
+    top: 770px;
+    bottom: 5759px;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.off-title {
+    color: rgb(255, 0, 0);
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    padding: 0px;
+}
+
+.off-description-one {
+    color: rgb(255, 0, 0);
+    margin-top: 0px;
+    margin-bottom: 7px;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    padding: 0px;
+}
+
+.off-description-two {
+    color: rgb(7, 2, 17);
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+.new-year-img {
+
+
+    width: 600px;
+    height: 330px;
+    left: 399px;
+    right: -399px;
+    top: 165.28%;
+    bottom: -142.09%;
+}
+
+
+/* welcome section styles */
+
+.welcome-container {
+
+    position: absolute;
+    max-width: 1320px;
+    max-height: 800px;
+    margin-top: 1400px;
+
+    background-image: linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url('../images/Vectorrr.png');
+    left: 200px;
+    right: 100px;
+    top: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+
+
+}
+.welcome-items{
+    margin-left: 100px;
+}
+
+.welcome-title-one{
+    color: rgb(255, 255, 255);
+    font-size: 64px;
+    font-weight: 900;
+    text-align: left;
+   
+    margin-top: 70px;
+    padding-top: 50px;
+    margin-bottom: 0px;
+    
+}
+.welcome-title-two {
+    color: rgb(255, 255, 255);
+    font-size: 64px;
+    font-weight: 900;
+    text-align: left;
+        margin-top: 0px;
+    padding-top: 0px;
+    
+}
+
+.welcome-description {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    width: 697px;
+    height: 60px;
+    left: 266px;
+    right: 357px;
+
+
+}
+
+.welcome-img {
+    /* margin-left: 0px;
+    padding-left: 0px; */
+    width: 180px;
+    height: 290px;
+    margin-left: 100px;
+    margin-top: 20px;
+    padding-top: 20px;
+
+}
